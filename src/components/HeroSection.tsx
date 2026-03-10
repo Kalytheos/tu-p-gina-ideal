@@ -15,19 +15,19 @@ const HeroSection = () => {
             deseada
           </h1>
           <p className="text-lg text-muted-foreground max-w-md leading-relaxed animate-fade-up animate-delay-200">
-            Este es un ejemplo de cómo podría lucir tu sitio web. 
+            Este es un ejemplo de cómo podría lucir tu sitio web.
             Moderno, elegante y diseñado para cautivar a tu audiencia.
           </p>
           <div className="flex flex-wrap gap-4 animate-fade-up animate-delay-300">
-            <Button variant="hero" size="lg">Explorar más</Button>
-            <Button variant="heroOutline" size="lg">Saber más</Button>
+            <Button variant="hero" size="lg">Aquí iría tu contacto</Button>
+            <Button variant="heroOutline" size="lg">Aquí te llamarían tus clientes</Button>
           </div>
         </div>
         <div className="relative animate-fade-in animate-delay-300">
           <div className="rounded-2xl overflow-hidden shadow-[var(--shadow-elevated)]">
-            <img 
-              src={heroImage} 
-              alt="Diseño abstracto moderno" 
+            <img
+              src={heroImage}
+              alt="Diseño abstracto moderno"
               className="w-full h-[500px] object-cover"
               loading="eager"
             />
